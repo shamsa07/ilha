@@ -8,11 +8,11 @@ int cevre(int r) {
 }
 int main() {
     int r;
-    cout << "çevr?nin radiusunu daxil edin:";
+    cout << "Ã§evrenin radiusunu daxil edin:";
     cin >> r;
     int s = sahe(r);
     int c = cevre(r);
-    cout << "sah?si:" << s << endl;
-    cout << "çevr?si:" << c << endl;
+    cout << "sahe:" << s << endl;
+    cout << "uzunluq:" << c << endl;
     return 0;
 }
